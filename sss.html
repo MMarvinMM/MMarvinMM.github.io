@@ -1,0 +1,1039 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第一章 · JS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Hardy">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    
+        <link rel="shortcut icon" href='images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='images/apple-touch-icon.jpg'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon.jpg">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.jpg">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"Blankj","repo":"glory","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="" target="_blank" class="custom-link">Tom Hardy</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="sss.html">
+            
+                <a href="sss.html">
+            
+                    
+                    第一章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第二章
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="01_Javascript/sss.html">
+            
+                <a href="01_Javascript/sss.html">
+            
+                    
+                    第一节
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="Untitled.html">
+            
+                <a href="Untitled.html">
+            
+                    
+                    第一节
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第一章</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <!--
+ * @Description: 
+ * @Version: UI2.0
+ * @Autor: Marvin
+ * @Date: 2022-01-11 17:03:50
+ * @LastEditors: Marvin
+ * @LastEditTime: 2022-01-11 17:27:14
+-->
+<blockquote>
+<p>xcnk,m </p>
+</blockquote>
+<pre><code class="lang-javascript">$(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//LoadPage();</span>
+
+    loadapiNoData(<span class="hljs-string">&quot;LoadPage&quot;</span>);
+});
+
+<span class="hljs-comment">// &#x521D;&#x59CB;&#x5316;&#x754C;&#x9762;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">LoadPage</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//kjjctjhz();</span>
+
+    sxtpbhqs();
+    $.ajax({
+        type: <span class="hljs-string">&quot;get&quot;</span>,
+        <span class="hljs-comment">//url: &quot;../../handler/EvaluationAndEarlyWarning.ashx&quot;,</span>
+        url: <span class="hljs-string">&quot;../../EvaluationAndEarlyWarning/Get03DQPG&quot;</span>,
+        <span class="hljs-keyword">async</span>: <span class="hljs-literal">false</span>,
+        data: {
+            <span class="hljs-string">&quot;jcyjType&quot;</span>: <span class="hljs-string">&quot;03DQPG&quot;</span>
+        },
+        datatype: <span class="hljs-string">&quot;json&quot;</span>,
+        success: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">jsonstr</span>) </span>{
+            <span class="hljs-keyword">if</span> (jsonstr == <span class="hljs-string">&quot;fail&quot;</span>) {
+                alert(<span class="hljs-string">&quot;&#x7CFB;&#x7EDF;&#x5F02;&#x5E38;&#xFF0C;&#x8BF7;&#x91CD;&#x8BD5;&quot;</span>); <span class="hljs-keyword">return</span>;
+            }
+            <span class="hljs-keyword">else</span> {
+                <span class="hljs-comment">// &#x5236;&#x56FE;</span>
+
+                <span class="hljs-keyword">var</span> maps1 = LoadMapByFunctionType(<span class="hljs-string">&quot;&#x76D1;&#x6D4B;&#x8BC4;&#x4F30;&#x9884;&#x8B66;&quot;</span>, <span class="hljs-string">&quot;&#x5B9A;&#x671F;&#x8BC4;&#x4F30;&quot;</span>, <span class="hljs-string">&quot;&#x6C38;&#x4E45;&#x57FA;&#x672C;&#x519C;&#x7530;&#x70ED;&#x70B9;&#x533A;&#x57DF;&quot;</span>, <span class="hljs-number">2021</span>);
+                <span class="hljs-keyword">var</span> maps2 = LoadMapByFunctionType(<span class="hljs-string">&quot;&#x76D1;&#x6D4B;&#x8BC4;&#x4F30;&#x9884;&#x8B66;&quot;</span>, <span class="hljs-string">&quot;&#x5B9A;&#x671F;&#x8BC4;&#x4F30;&quot;</span>, <span class="hljs-string">&quot;&#x751F;&#x6001;&#x4FDD;&#x62A4;&#x7EA2;&#x7EBF;&#x9884;&#x8B66;&#x70ED;&#x70B9;&#x533A;&#x57DF;&quot;</span>, <span class="hljs-number">2021</span>);
+                <span class="hljs-keyword">var</span> maps3 = LoadMapByFunctionType(<span class="hljs-string">&quot;&#x76D1;&#x6D4B;&#x8BC4;&#x4F30;&#x9884;&#x8B66;&quot;</span>, <span class="hljs-string">&quot;&#x5B9A;&#x671F;&#x8BC4;&#x4F30;&quot;</span>, <span class="hljs-string">&quot;&#x57CE;&#x9547;&#x5F00;&#x53D1;&#x8FB9;&#x754C;&#x9884;&#x8B66;&#x70ED;&#x70B9;&#x533A;&#x57DF;&quot;</span>, <span class="hljs-number">2021</span>);
+                <span class="hljs-keyword">var</span> maps4 = LoadMapByFunctionType(<span class="hljs-string">&quot;&#x76D1;&#x6D4B;&#x8BC4;&#x4F30;&#x9884;&#x8B66;&quot;</span>, <span class="hljs-string">&quot;&#x5B9A;&#x671F;&#x8BC4;&#x4F30;&quot;</span>, <span class="hljs-string">&quot;&#x4E3B;&#x9875;&quot;</span>, <span class="hljs-number">2021</span>);
+                setTimeout(LoadMapToView(maps4, <span class="hljs-string">&quot;mapview&quot;</span>, <span class="hljs-string">&quot;&#x964D;&#x6C34;&#x91CF;&#x8BC4;&#x4EF7;202107&quot;</span>), <span class="hljs-number">1000</span>);
+                setTimeout(LoadMapToView(maps2, <span class="hljs-string">&quot;stbhhxyjrd&quot;</span>, <span class="hljs-string">&quot;&#x5761;&#x5EA6;&#x76D1;&#x7BA1;&#x9884;&#x8B66;202101&quot;</span>), <span class="hljs-number">1000</span>);
+                setTimeout(LoadMapToView(maps3, <span class="hljs-string">&quot;yjjbntrdqy&quot;</span>, <span class="hljs-string">&quot;&#x68EE;&#x6797;&#x76D1;&#x7BA1;&#x9884;&#x8B66;202101&quot;</span>), <span class="hljs-number">1000</span>);
+                setTimeout(LoadMapToView(maps1, <span class="hljs-string">&quot;czkfbjyjrdqy&quot;</span>, <span class="hljs-string">&quot;&#x571F;&#x58E4;&#x8D28;&#x5730;&#x8BC4;&#x4EF7;202107&quot;</span>), <span class="hljs-number">1000</span>);
+
+
+
+                <span class="hljs-keyword">var</span> targetobjs = <span class="hljs-built_in">eval</span>(<span class="hljs-string">&quot;(&quot;</span> + jsonstr + <span class="hljs-string">&quot;)&quot;</span>);
+                <span class="hljs-keyword">if</span> (targetobjs.length &gt; <span class="hljs-number">0</span>) {
+                    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; targetobjs.length; i++) {
+                        <span class="hljs-comment">// &#x7A7A;&#x95F4;&#x76D1;&#x6D4B;&#x4F53;&#x68C0;&#x6C47;&#x603B;</span>
+                        <span class="hljs-keyword">if</span> (targetobjs[i].TYPE1 == <span class="hljs-string">&quot;&#x7A7A;&#x95F4;&#x76D1;&#x6D4B;&#x4F53;&#x68C0;&#x6C47;&#x603B;&quot;</span>) {
+                            <span class="hljs-keyword">var</span> resArray = <span class="hljs-keyword">typeof</span> targetobjs[i].RESULT == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].RESULT) : targetobjs[i].RESULT;
+                            <span class="hljs-keyword">var</span> seriesArr = [];
+                            <span class="hljs-keyword">var</span> xAxisDataArr = <span class="hljs-keyword">typeof</span> targetobjs[i].TYPE2 == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].TYPE2) : targetobjs[i].TYPE2;
+                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> index3 = <span class="hljs-number">0</span>; index3 &lt; resArray.length; index3++) {
+                                seriesArr.push(
+                                    {
+                                        name: resArray[index3].name,
+                                        type: <span class="hljs-string">&apos;bar&apos;</span>,
+                                        barGap: <span class="hljs-number">0</span>,
+                                        stack: <span class="hljs-string">&apos;&#x5B8C;&#x6210;&#x60C5;&#x51B5;&apos;</span>,
+                                        data: resArray[index3].value
+                                    }
+                                )
+                            }
+                            <span class="hljs-keyword">var</span> option = {
+                                <span class="hljs-comment">//color: [&apos;#0caee5&apos;, &apos;#fdb003&apos;],</span>
+                                color: [<span class="hljs-string">&apos;#0079ff&apos;</span>, <span class="hljs-string">&apos;#b6ebff&apos;</span>],
+                                tooltip: {
+                                    trigger: <span class="hljs-string">&apos;axis&apos;</span>,
+                                    axisPointer: {
+                                        type: <span class="hljs-string">&apos;shadow&apos;</span>
+                                    }
+                                },
+                                grid: {
+                                    left: <span class="hljs-string">&apos;2%&apos;</span>,
+                                    top: <span class="hljs-string">&apos;10%&apos;</span>,
+                                    height: <span class="hljs-string">&apos;84%&apos;</span>,
+                                    width: <span class="hljs-string">&apos;90%&apos;</span>,
+                                    containLabel: <span class="hljs-literal">true</span>
+                                },
+                                xAxis: [
+                                    {
+                                        axisLine: {
+                                            lineStyle: {
+                                                color: <span class="hljs-string">&apos;#555&apos;</span>
+                                            },
+                                            textStyle: {
+                                                color: <span class="hljs-string">&apos;white&apos;</span>,
+                                                <span class="hljs-string">&quot;textStyle&quot;</span>: {
+                                                    <span class="hljs-string">&quot;fontSize&quot;</span>: <span class="hljs-number">10</span>
+                                                }
+                                            }
+                                        },
+                                        type: <span class="hljs-string">&apos;category&apos;</span>,
+                                        axisTick: { show: <span class="hljs-literal">false</span> },
+                                        data: xAxisDataArr
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        axisLine: {
+                                            lineStyle: {
+                                                color: <span class="hljs-string">&apos;#555&apos;</span>
+                                            },
+                                            textStyle: {
+                                                color: <span class="hljs-string">&apos;white&apos;</span>,
+                                                <span class="hljs-string">&quot;textStyle&quot;</span>: {
+                                                    <span class="hljs-string">&quot;fontSize&quot;</span>: <span class="hljs-number">10</span>
+                                                }
+                                            }
+                                        },
+                                        type: <span class="hljs-string">&apos;value&apos;</span>
+                                    }
+                                ],
+                                series: seriesArr
+                            };
+                            <span class="hljs-keyword">var</span> eChartObj = echarts.init(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;echartsKJJCTJHZ&quot;</span>));
+                            eChartObj.setOption(option);
+                        }
+                        <span class="hljs-comment">// &#x7EA2;&#x7EBF;&#x7A81;&#x7834;</span>
+                        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (targetobjs[i].TYPE1 == <span class="hljs-string">&quot;&#x7EA2;&#x7EBF;&#x7A81;&#x7834;&quot;</span>) {
+                            <span class="hljs-keyword">var</span> resArray = <span class="hljs-keyword">typeof</span> targetobjs[i].RESULT == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].RESULT) : targetobjs[i].RESULT;
+                            <span class="hljs-keyword">var</span> legendDataArr = [];
+                            <span class="hljs-keyword">var</span> seriesArr = [];
+                            <span class="hljs-keyword">var</span> xAxisDataArr = <span class="hljs-keyword">typeof</span> targetobjs[i].TYPE2 == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].TYPE2) : targetobjs[i].TYPE2;
+                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> index2 = <span class="hljs-number">0</span>; index2 &lt; resArray.length; index2++) {
+                                legendDataArr.push(resArray[index2].name);
+                                seriesArr.push(
+                                    {
+                                        name: resArray[index2].name,
+                                        type: <span class="hljs-string">&apos;bar&apos;</span>,
+                                        data: resArray[index2].value
+                                    }
+                                )
+                            };
+                            <span class="hljs-keyword">var</span> posList = [
+                                <span class="hljs-string">&apos;left&apos;</span>, <span class="hljs-string">&apos;right&apos;</span>, <span class="hljs-string">&apos;top&apos;</span>, <span class="hljs-string">&apos;bottom&apos;</span>,
+                                <span class="hljs-string">&apos;inside&apos;</span>,
+                                <span class="hljs-string">&apos;insideTop&apos;</span>, <span class="hljs-string">&apos;insideLeft&apos;</span>, <span class="hljs-string">&apos;insideRight&apos;</span>, <span class="hljs-string">&apos;insideBottom&apos;</span>,
+                                <span class="hljs-string">&apos;insideTopLeft&apos;</span>, <span class="hljs-string">&apos;insideTopRight&apos;</span>, <span class="hljs-string">&apos;insideBottomLeft&apos;</span>, <span class="hljs-string">&apos;insideBottomRight&apos;</span>
+                            ];
+                            <span class="hljs-keyword">var</span> labelOption = {
+                                show: <span class="hljs-literal">true</span>,
+                                position: <span class="hljs-string">&apos;insideBottom&apos;</span>,
+                                distance: <span class="hljs-number">8</span>,
+                                align: <span class="hljs-string">&apos;bottom&apos;</span>,
+                                verticalAlign: <span class="hljs-string">&apos;middle&apos;</span>,
+                                rotate: <span class="hljs-number">90</span>,
+                                formatter: <span class="hljs-string">&apos;{c}  {name|{a}}&apos;</span>,
+                                fontSize: <span class="hljs-number">12</span>,
+                                rich: {
+                                    name: {
+                                        textBorderColor: <span class="hljs-string">&apos;#fff&apos;</span>
+                                    }
+                                }
+                            };
+                            <span class="hljs-keyword">var</span> option = {
+                                <span class="hljs-comment">//color: [&apos;#003366&apos;, &apos;#e5323e&apos;, &apos;#4cabce&apos;],</span>
+                                color: [<span class="hljs-string">&apos;#0049ba&apos;</span>, <span class="hljs-string">&apos;#0079ff&apos;</span>, <span class="hljs-string">&apos;#b6ebff&apos;</span>],
+                                tooltip: {
+                                    trigger: <span class="hljs-string">&apos;axis&apos;</span>,
+                                    axisPointer: {
+                                        type: <span class="hljs-string">&apos;shadow&apos;</span>
+                                    }
+                                },
+                                grid: {
+                                    x: <span class="hljs-string">&quot;16%&quot;</span>,<span class="hljs-comment">//x &#x504F;&#x79FB;&#x91CF;</span>
+                                    y: <span class="hljs-string">&quot;5%&quot;</span>, <span class="hljs-comment">// y &#x504F;&#x79FB;&#x91CF;</span>
+                                    width: <span class="hljs-string">&quot;76%&quot;</span>, <span class="hljs-comment">// &#x5BBD;&#x5EA6;</span>
+                                    height: <span class="hljs-string">&quot;62%&quot;</span><span class="hljs-comment">// &#x9AD8;&#x5EA6;</span>
+                                },
+                                <span class="hljs-comment">//legend: {</span>
+                                <span class="hljs-comment">//    textStyle:</span>
+                                <span class="hljs-comment">//    {</span>
+                                <span class="hljs-comment">//        color: &quot;white&quot;</span>
+                                <span class="hljs-comment">//    },</span>
+                                <span class="hljs-comment">//    data: legendDataArr</span>
+                                <span class="hljs-comment">//},</span>
+
+                                xAxis: [
+                                    {
+                                        axisLine: {
+                                            lineStyle: {
+                                                color: <span class="hljs-string">&apos;#555&apos;</span>
+                                            },
+                                            textStyle: {
+                                                color: <span class="hljs-string">&apos;white&apos;</span>,
+                                                <span class="hljs-string">&quot;textStyle&quot;</span>: {
+                                                    <span class="hljs-string">&quot;fontSize&quot;</span>: <span class="hljs-number">2</span>
+                                                }
+                                            }
+                                        },
+                                        type: <span class="hljs-string">&apos;category&apos;</span>,
+                                        axisTick: { show: <span class="hljs-literal">false</span> },
+                                        data: xAxisDataArr
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        axisLine: {
+                                            lineStyle: {
+                                                color: <span class="hljs-string">&apos;#555&apos;</span>
+                                            },
+                                            textStyle: {
+                                                color: <span class="hljs-string">&apos;white&apos;</span>,
+                                                <span class="hljs-string">&quot;textStyle&quot;</span>: {
+                                                    <span class="hljs-string">&quot;fontSize&quot;</span>: <span class="hljs-number">4</span>
+                                                }
+                                            }
+                                        },
+                                        type: <span class="hljs-string">&apos;value&apos;</span>
+                                    }
+                                ],
+                                series: seriesArr,
+                            };
+                            <span class="hljs-keyword">var</span> eChartObj = echarts.init(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;echartsHXTP&quot;</span>));
+                            eChartObj.setOption(option);
+                        }
+                        <span class="hljs-comment">// &#x76D1;&#x6D4B;&#x6307;&#x6807;&#x8FBE;&#x6210;&#x60C5;&#x51B5;</span>
+                        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (targetobjs[i].TYPE1 == <span class="hljs-string">&quot;&#x76D1;&#x6D4B;&#x6307;&#x6807;&#x8FBE;&#x6210;&#x60C5;&#x51B5;&quot;</span>) {
+                            <span class="hljs-keyword">var</span> resArray = <span class="hljs-keyword">typeof</span> targetobjs[i].RESULT == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].RESULT) : targetobjs[i].RESULT;
+                            <span class="hljs-keyword">var</span> indicatorArr = [];
+                            <span class="hljs-keyword">var</span> seriesArr = [];
+                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> index4 = <span class="hljs-number">0</span>; index4 &lt; resArray.length; index4++) {
+                                seriesArr.push({
+                                    value: <span class="hljs-keyword">typeof</span> resArray[index4].value == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(resArray[index4].value) : resArray[index4].value,
+                                    name: <span class="hljs-string">&quot;&#x7BA1;&#x63A7;&quot;</span>,
+                                })
+                            };
+                            <span class="hljs-keyword">var</span> jsonType = <span class="hljs-keyword">typeof</span> targetobjs[i].TYPE2 == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].TYPE2) : targetobjs[i].TYPE2;
+                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> indexType = <span class="hljs-number">0</span>; indexType &lt; jsonType.length; indexType++) {
+                                indicatorArr.push(
+                                    { name: jsonType[indexType], max: <span class="hljs-number">100</span> }
+                                )
+                            };
+                            <span class="hljs-keyword">var</span> option = {
+                                <span class="hljs-comment">//color: [&apos;#3eac71&apos;, &apos;#bb9d2c&apos;, &apos;#d5155b&apos;],</span>
+                                color: [<span class="hljs-string">&apos;#0079ff&apos;</span>],
+                                radar: {
+                                    center: [<span class="hljs-string">&apos;47%&apos;</span>, <span class="hljs-string">&apos;50%&apos;</span>],
+                                    <span class="hljs-comment">// &#x5706;&#x4E2D;&#x5FC3;&#x5750;&#x6807;&#xFF0C;&#x6570;&#x7EC4;&#x7684;&#x7B2C;&#x4E00;&#x9879;&#x662F;&#x6A2A;&#x5750;&#x6807;&#xFF0C;&#x7B2C;&#x4E8C;&#x9879;&#x662F;&#x7EB5;&#x5750;&#x6807;&#x3002;[ default: [&apos;50%&apos;, &apos;50%&apos;] ]</span>
+                                    radius: <span class="hljs-number">55</span>,
+                                    <span class="hljs-comment">// shape: &apos;circle&apos;,</span>
+                                    name: { <span class="hljs-comment">// (&#x5706;&#x5916;&#x7684;&#x6807;&#x7B7E;)&#x96F7;&#x8FBE;&#x56FE;&#x6BCF;&#x4E2A;&#x6307;&#x793A;&#x5668;&#x540D;&#x79F0;&#x7684;&#x914D;&#x7F6E;&#x9879;&#x3002;</span>
+                                        formatter: <span class="hljs-string">&apos;{value}&apos;</span>,
+                                        textStyle: {
+                                            fontSize: <span class="hljs-number">10</span>,
+                                            color: <span class="hljs-string">&apos;#0049ba&apos;</span>
+                                            <span class="hljs-comment">//color: &apos;rgb(238, 197, 102)&apos;</span>
+                                        }
+                                    },
+                                    nameGap: <span class="hljs-number">5</span>,
+                                    indicator: indicatorArr
+                                },
+                                series: [{
+                                    name: <span class="hljs-string">&apos;&#x76D1;&#x6D4B;&#x6307;&#x6807;&#x8FBE;&#x6210;&#x60C5;&#x51B5;&apos;</span>,
+                                    type: <span class="hljs-string">&apos;radar&apos;</span>,
+                                    <span class="hljs-comment">// areaStyle: {normal: {}},</span>
+                                    data: seriesArr
+                                }]
+                            };
+                            <span class="hljs-keyword">var</span> eChartObj = echarts.init(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;echartsJCZBDCQK&quot;</span>));
+                            eChartObj.setOption(option);
+                        }
+                        <span class="hljs-comment">// &#x5B89;&#x5168;&#x6027;&#x6307;&#x6807;&#x68C0;&#x6D4B;</span>
+                        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (targetobjs[i].TYPE1 == <span class="hljs-string">&quot;&#x5B89;&#x5168;&#x6027;&#x6307;&#x6807;&#x76D1;&#x6D4B;&quot;</span>) {
+                            <span class="hljs-keyword">var</span> resArray = <span class="hljs-keyword">typeof</span> targetobjs[i].RESULT == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].RESULT) : targetobjs[i].RESULT;
+                            <span class="hljs-keyword">var</span> indicatorArr = [];
+                            <span class="hljs-keyword">var</span> seriesArr = [];
+                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> index1 = <span class="hljs-number">0</span>; index1 &lt; <span class="hljs-number">1</span>; index1++) {
+                                ;                                <span class="hljs-comment">//for (let index1 = 0; index1 &lt; resArray.length; index1++) {</span>
+                                seriesArr.push({
+                                    value: <span class="hljs-keyword">typeof</span> resArray[index1].value == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(resArray[index1].value) : resArray[index1].value,
+                                    name: resArray[index1].name,
+                                })
+                            };
+                            <span class="hljs-keyword">var</span> jsonType = <span class="hljs-keyword">typeof</span> targetobjs[i].TYPE2 == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].TYPE2) : targetobjs[i].TYPE2;
+                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> indexType = <span class="hljs-number">0</span>; indexType &lt; jsonType.length; indexType++) {
+                                indicatorArr.push(
+                                    { name: jsonType[indexType], max: <span class="hljs-number">100</span> }
+                                )
+                            };
+                            <span class="hljs-comment">// alert(JSON.stringify(seriesArr));</span>
+                            <span class="hljs-keyword">var</span> option = {
+                                <span class="hljs-comment">//color: [&apos;#3eac71&apos;, &apos;#bb9d2c&apos;, &apos;#d5155b&apos;],</span>
+                                color: [<span class="hljs-string">&apos;#0079ff&apos;</span>],
+                                radar: {
+                                    center: [<span class="hljs-string">&apos;50%&apos;</span>, <span class="hljs-string">&apos;50%&apos;</span>],
+                                    <span class="hljs-comment">// &#x5706;&#x4E2D;&#x5FC3;&#x5750;&#x6807;&#xFF0C;&#x6570;&#x7EC4;&#x7684;&#x7B2C;&#x4E00;&#x9879;&#x662F;&#x6A2A;&#x5750;&#x6807;&#xFF0C;&#x7B2C;&#x4E8C;&#x9879;&#x662F;&#x7EB5;&#x5750;&#x6807;&#x3002;[ default: [&apos;50%&apos;, &apos;50%&apos;] ]</span>
+                                    radius: <span class="hljs-number">55</span>,
+                                    <span class="hljs-comment">// shape: &apos;circle&apos;,</span>
+                                    name: { <span class="hljs-comment">// (&#x5706;&#x5916;&#x7684;&#x6807;&#x7B7E;)&#x96F7;&#x8FBE;&#x56FE;&#x6BCF;&#x4E2A;&#x6307;&#x793A;&#x5668;&#x540D;&#x79F0;&#x7684;&#x914D;&#x7F6E;&#x9879;&#x3002;</span>
+                                        formatter: <span class="hljs-string">&apos;{value}&apos;</span>,
+                                        textStyle: {
+                                            fontSize: <span class="hljs-number">12</span>,
+                                            <span class="hljs-comment">//color: &apos;rgb(238, 197, 102)&apos;</span>
+                                            color: <span class="hljs-string">&apos;#0049ba&apos;</span>
+                                        }
+                                    },
+                                    nameGap: <span class="hljs-number">5</span>,
+                                    indicator: indicatorArr
+                                },
+                                series: [{
+                                    name: <span class="hljs-string">&apos;&#x7A7A;&#x95F4;&#x76D1;&#x6D4B;&#x4F53;&#x68C0;&#x6C47;&#x603B;&apos;</span>,
+                                    type: <span class="hljs-string">&apos;radar&apos;</span>,
+                                    <span class="hljs-comment">// areaStyle: {normal: {}},</span>
+                                    data: seriesArr,
+                                    tooltip: {
+                                        trigger: <span class="hljs-string">&apos;item&apos;</span>
+                                    },
+                                }]
+                            };
+                            <span class="hljs-keyword">var</span> eChartObj = echarts.init(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;echartsAQXZBJC&quot;</span>));
+                            <span class="hljs-keyword">var</span> str = <span class="hljs-built_in">JSON</span>.stringify(option)
+                            eChartObj.setOption(option);
+
+                        }
+                        <span class="hljs-comment">//// &#x4E09;&#x7EBF;&#x7A81;&#x7834;&#x53D8;&#x5316;&#x8D8B;&#x52BF;&#xFF08;&#x5355;&#x72EC;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#xFF09; &#x8BC4;&#x4F30;&#x7ED3;&#x679C;</span>
+                        <span class="hljs-comment">//else if (targetobjs[i].TYPE1 == &quot;&#x4E09;&#x7EBF;&#x7A81;&#x7834;&#x53D8;&#x5316;&#x8D8B;&#x52BF;&quot;) {</span>
+                        <span class="hljs-comment">//    var resArray = typeof targetobjs[i].RESULT == &apos;string&apos; ? JSON.parse(targetobjs[i].RESULT) : targetobjs[i].RESULT;</span>
+                        <span class="hljs-comment">//    var xAxisDataArr = typeof targetobjs[i].TYPE2 == &apos;string&apos; ? JSON.parse(targetobjs[i].TYPE2) : targetobjs[i].TYPE2;</span>
+                        <span class="hljs-comment">//    var seriesArr = [];</span>
+                        <span class="hljs-comment">//    var legendDataArr = [];</span>
+                        <span class="hljs-comment">//    for (let index5 = 0; index5 &lt; resArray.length; index5++) {</span>
+                        <span class="hljs-comment">//        legendDataArr.push(resArray[index5].name);</span>
+                        <span class="hljs-comment">//        seriesArr.push(</span>
+                        <span class="hljs-comment">//            {</span>
+                        <span class="hljs-comment">//                name: resArray[index5].name,</span>
+                        <span class="hljs-comment">//                type: &apos;line&apos;,</span>
+                        <span class="hljs-comment">//                stack: &apos;&#x603B;&#x91CF;&apos;,</span>
+                        <span class="hljs-comment">//                data: resArray[index5].value</span>
+                        <span class="hljs-comment">//            }</span>
+                        <span class="hljs-comment">//        )</span>
+                        <span class="hljs-comment">//    };</span>
+                        <span class="hljs-comment">//    var option = {</span>
+                        <span class="hljs-comment">//        tooltip: {</span>
+                        <span class="hljs-comment">//            trigger: &apos;axis&apos;</span>
+                        <span class="hljs-comment">//        },</span>
+                        <span class="hljs-comment">//        //legend: {</span>
+                        <span class="hljs-comment">//        //    textStyle:</span>
+                        <span class="hljs-comment">//        //    {</span>
+                        <span class="hljs-comment">//        //        color: &quot;white&quot;</span>
+                        <span class="hljs-comment">//        //    },</span>
+                        <span class="hljs-comment">//        //    data: legendDataArr</span>
+                        <span class="hljs-comment">//        //},</span>
+                        <span class="hljs-comment">//        grid: {</span>
+                        <span class="hljs-comment">//            x: &quot;15%&quot;,//x &#x504F;&#x79FB;&#x91CF;</span>
+                        <span class="hljs-comment">//            y: &quot;8%&quot;, // y &#x504F;&#x79FB;&#x91CF;</span>
+                        <span class="hljs-comment">//            width: &quot;75%&quot;, // &#x5BBD;&#x5EA6;</span>
+                        <span class="hljs-comment">//            height: &quot;70%&quot;// &#x9AD8;&#x5EA6;</span>
+                        <span class="hljs-comment">//        },</span>
+
+                        <span class="hljs-comment">//        xAxis: {</span>
+                        <span class="hljs-comment">//            axisLine: {</span>
+                        <span class="hljs-comment">//                lineStyle: {</span>
+                        <span class="hljs-comment">//                    color: &apos;#555&apos;</span>
+                        <span class="hljs-comment">//                },</span>
+                        <span class="hljs-comment">//                textStyle: {</span>
+                        <span class="hljs-comment">//                    color: &apos;white&apos;,</span>
+                        <span class="hljs-comment">//                    &quot;textStyle&quot;: {</span>
+                        <span class="hljs-comment">//                        &quot;fontSize&quot;: 10</span>
+                        <span class="hljs-comment">//                    }</span>
+                        <span class="hljs-comment">//                }</span>
+                        <span class="hljs-comment">//            },</span>
+                        <span class="hljs-comment">//            type: &apos;category&apos;,</span>
+                        <span class="hljs-comment">//            boundaryGap: false,</span>
+                        <span class="hljs-comment">//            data: xAxisDataArr</span>
+                        <span class="hljs-comment">//        },</span>
+                        <span class="hljs-comment">//        yAxis: {</span>
+                        <span class="hljs-comment">//            axisLine: {</span>
+                        <span class="hljs-comment">//                lineStyle: {</span>
+                        <span class="hljs-comment">//                    color: &apos;#555&apos;</span>
+                        <span class="hljs-comment">//                },</span>
+                        <span class="hljs-comment">//                textStyle: {</span>
+                        <span class="hljs-comment">//                    color: &apos;white&apos;,</span>
+                        <span class="hljs-comment">//                    &quot;textStyle&quot;: {</span>
+                        <span class="hljs-comment">//                        &quot;fontSize&quot;: 10</span>
+                        <span class="hljs-comment">//                    }</span>
+                        <span class="hljs-comment">//                }</span>
+                        <span class="hljs-comment">//            },</span>
+                        <span class="hljs-comment">//            type: &apos;value&apos;</span>
+                        <span class="hljs-comment">//        },</span>
+                        <span class="hljs-comment">//        series: seriesArr,</span>
+                        <span class="hljs-comment">//    };</span>
+                        <span class="hljs-comment">//    var eChartObj = echarts.init(document.getElementById(&quot;echartsSXTPBHQS&quot;));</span>
+                        <span class="hljs-comment">//    eChartObj.setOption(option);</span>
+                        <span class="hljs-comment">//}</span>
+                        <span class="hljs-comment">// &#x4E09;&#x7EBF;&#x7BA1;&#x63A7;&#x9762;&#x79EF;&#x76D1;&#x6D4B;</span>
+                        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (targetobjs[i].TYPE1 == <span class="hljs-string">&quot;&#x4E09;&#x7EBF;&#x7BA1;&#x63A7;&#x9762;&#x79EF;&#x76D1;&#x6D4B;&quot;</span>) {
+                            <span class="hljs-keyword">var</span> seriesArr = <span class="hljs-keyword">typeof</span> targetobjs[i].RESULT == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[i].RESULT) : targetobjs[i].RESULT;
+                            <span class="hljs-keyword">var</span> legendDataArr = [];
+                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> indexArr <span class="hljs-keyword">of</span> seriesArr) {
+                                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> key <span class="hljs-keyword">in</span> indexArr) {
+                                    <span class="hljs-keyword">if</span> (key == <span class="hljs-string">&apos;name&apos;</span>) {
+                                        legendDataArr.push(indexArr[key]);
+                                    }
+                                }
+                            };
+                            <span class="hljs-keyword">var</span> option = {
+                                color: [<span class="hljs-string">&apos;#0049ba&apos;</span>, <span class="hljs-string">&quot;#b6ebff&quot;</span>, <span class="hljs-string">&apos;#0049ba&apos;</span>, <span class="hljs-string">&quot;#b6ebff&quot;</span>, <span class="hljs-string">&apos;#0049ba&apos;</span>, <span class="hljs-string">&quot;#b6ebff&quot;</span>],
+                                tooltip: {
+                                    trigger: <span class="hljs-string">&apos;item&apos;</span>,
+                                    formatter: <span class="hljs-string">&apos;{a} &lt;br/&gt;{b}: {c} ({d}%)&apos;</span>
+                                },
+                                <span class="hljs-comment">// legend: {</span>
+                                <span class="hljs-comment">//    x: &apos;left&apos;,</span>
+                                <span class="hljs-comment">//    y: &apos;top&apos;,</span>
+                                <span class="hljs-comment">//    orient: &apos;vertical&apos;,</span>
+                                <span class="hljs-comment">//    textStyle:</span>
+                                <span class="hljs-comment">//    {</span>
+                                <span class="hljs-comment">//        color: &quot;#0049ba&quot;</span>
+                                <span class="hljs-comment">//    },</span>
+                                <span class="hljs-comment">//    data: legendDataArr</span>
+                                <span class="hljs-comment">// },</span>
+                                series: [
+                                    {
+                                        name: <span class="hljs-string">&apos;&#x9762;&#x79EF;&apos;</span>,
+                                        type: <span class="hljs-string">&apos;pie&apos;</span>,
+                                        radius: [<span class="hljs-string">&apos;37%&apos;</span>, <span class="hljs-string">&apos;70%&apos;</span>],
+                                        center: [<span class="hljs-string">&apos;50%&apos;</span>, <span class="hljs-string">&apos;45%&apos;</span>],
+                                        avoidLabelOverlap: <span class="hljs-literal">false</span>,
+                                        emphasis: {
+                                            label: {
+                                                show: <span class="hljs-literal">false</span>,
+                                                fontSize: <span class="hljs-string">&apos;10&apos;</span>,
+                                                fontWeight: <span class="hljs-string">&apos;bold&apos;</span>
+                                            }
+                                        },
+                                        labelLine: {
+                                            show: <span class="hljs-literal">false</span>
+                                        },
+                                        label: {
+                                            show: <span class="hljs-literal">false</span>
+                                        },
+                                        data: seriesArr
+                                    }
+                                ]
+                            };
+                            <span class="hljs-keyword">var</span> eChartObj = echarts.init(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;echartsSXGKMJJC&quot;</span>));
+                            eChartObj.setOption(option);
+                        }
+                    }
+                }
+                <span class="hljs-keyword">else</span> {
+                    alert(<span class="hljs-string">&quot;&#x65E0;&#x6570;&#x636E;!&quot;</span>)
+                }
+            }
+        }
+    });
+}
+
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sxtpbhqs</span>(<span class="hljs-params"></span>) </span>{
+    $.ajax({
+        type: <span class="hljs-string">&quot;get&quot;</span>,
+        <span class="hljs-comment">//url: &quot;../../handler/EvaluationAndEarlyWarning.ashx&quot;,</span>
+        url: <span class="hljs-string">&quot;../../EvaluationAndEarlyWarning/Get03DQPGsxtp&quot;</span>,
+        <span class="hljs-keyword">async</span>: <span class="hljs-literal">false</span>,
+        data: {
+            <span class="hljs-comment">//&quot;jcyjType&quot;: &quot;03DQPGsxtp&quot;</span>
+        },
+        datatype: <span class="hljs-string">&quot;json&quot;</span>,
+        success: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">jsonstr</span>) </span>{
+            <span class="hljs-keyword">if</span> (jsonstr == <span class="hljs-string">&quot;fail&quot;</span>) {
+                alert(<span class="hljs-string">&quot;&#x7CFB;&#x7EDF;&#x5F02;&#x5E38;&#xFF0C;&#x8BF7;&#x91CD;&#x8BD5;&quot;</span>); <span class="hljs-keyword">return</span>;
+            }
+            <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">var</span> targetobjs = <span class="hljs-built_in">eval</span>(<span class="hljs-string">&quot;(&quot;</span> + jsonstr + <span class="hljs-string">&quot;)&quot;</span>);
+                <span class="hljs-comment">//var targetobjs = JSON.parse(jsonstr);</span>
+
+                <span class="hljs-keyword">var</span> resArray = [];
+                <span class="hljs-keyword">var</span> legendDataArr = [];
+                <span class="hljs-keyword">var</span> xAxisDataArr = [];
+                <span class="hljs-keyword">var</span> czArray = [];
+                <span class="hljs-keyword">var</span> ntArray = [];
+                <span class="hljs-keyword">var</span> stArray = [];
+                <span class="hljs-keyword">var</span> seriesArr = [];
+                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> tIndex = <span class="hljs-number">0</span>; tIndex &lt; targetobjs.length; tIndex++) {
+                    xAxisDataArr.push(targetobjs[tIndex].PGDATE);
+
+                    <span class="hljs-keyword">var</span> echartsRes = <span class="hljs-keyword">typeof</span> targetobjs[tIndex].RESULT == <span class="hljs-string">&apos;string&apos;</span> ? <span class="hljs-built_in">JSON</span>.parse(targetobjs[tIndex].RESULT) : targetobjs[tIndex].RESULT;
+                    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> eIndex = <span class="hljs-number">0</span>; eIndex &lt; echartsRes.length; eIndex++) {
+                        <span class="hljs-keyword">if</span> (legendDataArr.indexOf(echartsRes[eIndex].name) &lt; <span class="hljs-number">0</span>) {
+                            legendDataArr.push(echartsRes[eIndex].name);
+                        }
+                        <span class="hljs-keyword">if</span> (echartsRes[eIndex].name == <span class="hljs-string">&apos;&#x57CE;&#x9547;&#x5F00;&#x53D1;&#x8FB9;&#x754C;&apos;</span>) {
+                            czArray.push(echartsRes[eIndex].value[<span class="hljs-number">0</span>]);
+                        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (echartsRes[eIndex].name == <span class="hljs-string">&apos;&#x6C38;&#x4E45;&#x57FA;&#x672C;&#x519C;&#x7530;&apos;</span>) {
+                            ntArray.push(echartsRes[eIndex].value[<span class="hljs-number">0</span>]);
+                        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (echartsRes[eIndex].name == <span class="hljs-string">&apos;&#x751F;&#x6001;&#x4FDD;&#x62A4;&#x7EA2;&#x7EBF;&apos;</span>) {
+                            stArray.push(echartsRes[eIndex].value[<span class="hljs-number">0</span>]);
+                        }
+                    }
+                }
+                seriesArr.push(
+                    {
+                        name: <span class="hljs-string">&apos;&#x57CE;&#x9547;&#x5F00;&#x53D1;&#x8FB9;&#x754C;&apos;</span>,
+                        type: <span class="hljs-string">&apos;line&apos;</span>,
+                        stack: <span class="hljs-string">&apos;&#x603B;&#x91CF;&apos;</span>,
+                        data: czArray
+                    }
+                );
+                seriesArr.push(
+                    {
+                        name: <span class="hljs-string">&apos;&#x6C38;&#x4E45;&#x57FA;&#x672C;&#x519C;&#x7530;&apos;</span>,
+                        type: <span class="hljs-string">&apos;line&apos;</span>,
+                        stack: <span class="hljs-string">&apos;&#x603B;&#x91CF;&apos;</span>,
+                        data: ntArray
+                    }
+                );
+                seriesArr.push(
+                    {
+                        name: <span class="hljs-string">&apos;&#x751F;&#x6001;&#x4FDD;&#x62A4;&#x7EA2;&#x7EBF;&apos;</span>,
+                        type: <span class="hljs-string">&apos;line&apos;</span>,
+                        stack: <span class="hljs-string">&apos;&#x603B;&#x91CF;&apos;</span>,
+                        data: stArray
+                    }
+                );
+
+
+
+                <span class="hljs-comment">// var resArray = typeof targetobjs[i].RESULT == &apos;string&apos; ? JSON.parse(targetobjs[i].RESULT) : targetobjs[i].RESULT;</span>
+                <span class="hljs-comment">// var xAxisDataArr = typeof targetobjs[i].TYPE2 == &apos;string&apos; ? JSON.parse(targetobjs[i].TYPE2) : targetobjs[i].TYPE2;</span>
+                <span class="hljs-comment">// var seriesArr = [];</span>
+                <span class="hljs-comment">// var legendDataArr = [];</span>
+                <span class="hljs-comment">//for (let index5 = 0; index5 &lt; resArray.length; index5++) {</span>
+                <span class="hljs-comment">//    legendDataArr.push(resArray[index5].name);</span>
+                <span class="hljs-comment">//    seriesArr.push(</span>
+                <span class="hljs-comment">//        {</span>
+                <span class="hljs-comment">//            name: resArray[index5].name,</span>
+                <span class="hljs-comment">//            type: &apos;line&apos;,</span>
+                <span class="hljs-comment">//            stack: &apos;&#x603B;&#x91CF;&apos;,</span>
+                <span class="hljs-comment">//            data: resArray[index5].value</span>
+                <span class="hljs-comment">//        }</span>
+                <span class="hljs-comment">//    )</span>
+                <span class="hljs-comment">//};</span>
+                <span class="hljs-keyword">var</span> option = {
+                    tooltip: {
+                        trigger: <span class="hljs-string">&apos;axis&apos;</span>
+                    },
+                    color: [<span class="hljs-string">&apos;blue&apos;</span>, <span class="hljs-string">&apos;green&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>],
+                    <span class="hljs-comment">//legend: {</span>
+                    <span class="hljs-comment">//    textStyle:</span>
+                    <span class="hljs-comment">//    {</span>
+                    <span class="hljs-comment">//        color: &quot;white&quot;</span>
+                    <span class="hljs-comment">//    },</span>
+                    <span class="hljs-comment">//    data: legendDataArr</span>
+                    <span class="hljs-comment">//},</span>
+                    grid: {
+                        top: <span class="hljs-string">&quot;10%&quot;</span>,<span class="hljs-comment">//x &#x504F;&#x79FB;&#x91CF;</span>
+                        left: <span class="hljs-string">&quot;20%&quot;</span>, <span class="hljs-comment">// y &#x504F;&#x79FB;&#x91CF;</span>
+                        width: <span class="hljs-string">&quot;78%&quot;</span>, <span class="hljs-comment">// &#x5BBD;&#x5EA6;</span>
+                        height: <span class="hljs-string">&quot;70%&quot;</span><span class="hljs-comment">// &#x9AD8;&#x5EA6;</span>
+                    },
+
+                    xAxis: {
+                        axisLine: {
+                            lineStyle: {
+                                color: <span class="hljs-string">&apos;#555&apos;</span>
+                            },
+                            textStyle: {
+                                color: <span class="hljs-string">&apos;white&apos;</span>,
+                                <span class="hljs-string">&quot;textStyle&quot;</span>: {
+                                    <span class="hljs-string">&quot;fontSize&quot;</span>: <span class="hljs-number">6</span>
+                                }
+                            }
+                        },
+                        type: <span class="hljs-string">&apos;category&apos;</span>,
+                        boundaryGap: <span class="hljs-literal">false</span>,
+                        data: xAxisDataArr
+                    },
+                    yAxis: {
+                        axisLine: {
+                            lineStyle: {
+                                color: <span class="hljs-string">&apos;#555&apos;</span>
+                            },
+                            textStyle: {
+                                color: <span class="hljs-string">&apos;white&apos;</span>,
+                                <span class="hljs-string">&quot;textStyle&quot;</span>: {
+                                    <span class="hljs-string">&quot;fontSize&quot;</span>: <span class="hljs-number">10</span>
+                                }
+                            }
+                        },
+                        type: <span class="hljs-string">&apos;value&apos;</span>
+                    },
+                    series: seriesArr,
+                };
+                <span class="hljs-keyword">var</span> eChartObj = echarts.init(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;echartsSXTPBHQS&quot;</span>));
+                eChartObj.setOption(option);
+            }
+        }
+    });
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">exportPDF</span>(<span class="hljs-params"></span>) </span>{
+    map2Img(mapView);
+    <span class="hljs-keyword">const</span> scale = <span class="hljs-built_in">window</span>.devicePixelRatio;
+    <span class="hljs-keyword">var</span> threeline = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;three-line&quot;</span>);
+    threeline.style.display = <span class="hljs-string">&quot;none&quot;</span>;
+    <span class="hljs-keyword">var</span> container = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;container&quot;</span>);
+    html2canvas(container, {
+        scale: scale,
+        logging: <span class="hljs-literal">false</span>,
+        background: <span class="hljs-string">&apos;#FFF&apos;</span>,
+        x: <span class="hljs-number">0</span>,
+        <span class="hljs-comment">// y: window.pageXOffset,</span>
+        y: <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;mapview&quot;</span>).offsetTop,
+        useCORS: <span class="hljs-literal">true</span>,
+        foreignObjectRendering: <span class="hljs-literal">true</span>,
+        allowTaint: <span class="hljs-literal">true</span>,<span class="hljs-comment">//&#x5141;&#x8BB8;&#x8DE8;&#x57DF;&#xFF08;&#x56FE;&#x7247;&#x8DE8;&#x57DF;&#x76F8;&#x5173;&#xFF09;</span>
+        taintTest: <span class="hljs-literal">false</span>,
+        dpi: <span class="hljs-number">300</span>,
+        onrendered: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">canvas</span>) </span>{
+            <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x56FE;&#x7247;URL&#xFF0C;&#x53C2;&#x6570;&#xFF1A;&#x56FE;&#x7247;&#x683C;&#x5F0F;&#x548C;&#x6E05;&#x6670;&#x5EA6;(0-1)</span>
+            <span class="hljs-keyword">var</span> pageData = canvas.toDataURL(<span class="hljs-string">&apos;image/jpeg&apos;</span>, <span class="hljs-number">1.0</span>);
+            <span class="hljs-comment">//&#x65B9;&#x5411;&#x9ED8;&#x8BA4;&#x7AD6;&#x76F4;&#xFF0C;&#x5C3A;&#x5BF8;ponits&#xFF0C;&#x683C;&#x5F0F;a4&#x3010;595.28,841.89]</span>
+            <span class="hljs-keyword">var</span> pdf = <span class="hljs-keyword">new</span> jsPDF(<span class="hljs-string">&apos;l&apos;</span>, <span class="hljs-string">&apos;pt&apos;</span>, <span class="hljs-string">&apos;a4&apos;</span>);
+            <span class="hljs-comment">//&#x9700;&#x8981;dataUrl&#x683C;&#x5F0F;</span>
+            pdf.addImage(pageData, <span class="hljs-string">&apos;JPEG&apos;</span>, <span class="hljs-number">40</span>, <span class="hljs-number">60</span>, <span class="hljs-number">761.89</span>, <span class="hljs-number">761.89</span> / <span class="hljs-number">761.89</span> * <span class="hljs-number">475.28</span>);
+            pdf.save(<span class="hljs-string">&apos;content.pdf&apos;</span>);
+        }
+    })
+    threeline.style.display = <span class="hljs-string">&quot;block&quot;</span>;
+    <span class="hljs-comment">// $mapview.removeChild(map2Img)</span>
+}
+<span class="hljs-comment">// <span class="hljs-doctag">TODO:</span>&#x5C06;gis&#x5730;&#x56FE;&#x8F6C;&#x5316;&#x4E3A;&#x56FE;&#x7247;&#xFF0C;&#x4ECE;&#x800C;&#x4F7F;&#x7528;html2canvas&#x8F6C;&#x6210;PDF</span>
+<span class="hljs-keyword">var</span> $mapview = $(<span class="hljs-string">&quot;#mapview&quot;</span>)[<span class="hljs-number">0</span>];
+<span class="hljs-keyword">var</span> map2Image;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">map2Img</span>(<span class="hljs-params">mapView</span>) </span>{
+    <span class="hljs-keyword">var</span> that = <span class="hljs-keyword">this</span>;<span class="hljs-comment">//&#x6B64;&#x5904;&#x662F;&#x91CD;&#x70B9;&#xFF0C;&#x6B64;&#x5904;&#x662F;&#x91CD;&#x70B9;&#xFF0C;&#x6B64;&#x5904;&#x662F;&#x91CD;&#x70B9;</span>
+    <span class="hljs-comment">// &#x65B9;&#x6CD5;1</span>
+    <span class="hljs-comment">// &#x5F53;&#x524D;&#x5730;&#x56FE;&#x5728;html&#x4E2D;&#x7684;&#x8303;&#x56F4;</span>
+    <span class="hljs-keyword">let</span> rect = $(<span class="hljs-string">&apos;#mapview&apos;</span>)[<span class="hljs-number">0</span>].getBoundingClientRect();
+    <span class="hljs-keyword">var</span> $canvas = $(<span class="hljs-string">&quot;#mapview canvas&quot;</span>)[<span class="hljs-number">0</span>];
+    <span class="hljs-keyword">var</span> $w = rect.width;
+    <span class="hljs-keyword">var</span> $h = rect.height;
+    <span class="hljs-keyword">var</span> type = <span class="hljs-string">&quot;png&quot;</span>;
+    map2Image = Canvas2Image.convertToImage($canvas, $w, $h, type)
+    <span class="hljs-comment">// $mapview.appendChild(map2Image)</span>
+    <span class="hljs-built_in">console</span>.log(map2Image);
+    <span class="hljs-built_in">console</span>.log($(<span class="hljs-string">&apos;#mapview&apos;</span>)[<span class="hljs-number">0</span>]);
+    <span class="hljs-built_in">console</span>.log($(<span class="hljs-string">&apos;#mapview&apos;</span>));
+    <span class="hljs-built_in">console</span>.log(rect);
+    <span class="hljs-comment">// &#x65B9;&#x6CD5;2</span>
+    <span class="hljs-comment">// arcgis&#x5730;&#x56FE;&#x622A;&#x56FE;&#xFF08;&#x65E0;&#x6CD5;&#x6267;&#x884C;&#xFF09;</span>
+    <span class="hljs-comment">// let options = {</span>
+    <span class="hljs-comment">//     format: &quot;png&quot;,</span>
+    <span class="hljs-comment">//     width: $w,</span>
+    <span class="hljs-comment">//     height: $h</span>
+    <span class="hljs-comment">// };</span>
+    <span class="hljs-comment">// that.mapView.when(function () {</span>
+    <span class="hljs-comment">//     that.mapView.takeScreenshot(options).then(function (screenshot) {</span>
+    <span class="hljs-comment">//         console.log(screenshot);</span>
+    <span class="hljs-comment">//         // screenshot.dataUrl&#x4E3A;&#x622A;&#x56FE;&#x540E;&#x5F97;Url</span>
+    <span class="hljs-comment">//         console.log(screenshot.dataUrl);</span>
+    <span class="hljs-comment">//     });</span>
+    <span class="hljs-comment">// });</span>
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 前言">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第一章","level":"1.2","depth":1,"next":{"title":"第二章","level":"1.3","depth":1,"ref":"","articles":[{"title":"第一节","level":"1.3.1","depth":2,"path":"01_Javascript/sss.md","ref":"01_Javascript/sss.md","articles":[{"title":"第一节","level":"1.3.1.1","depth":3,"path":"Untitled.md","ref":"Untitled.md","articles":[]}]}]},"previous":{"title":"前言","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","expandable-chapters-small","anchors","github","github-buttons","donate","sharing-plus","anchor-navigation-ex","favicon","code","expandable-chapters","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Blankj"},"livereload":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"donate":{"alipay":"./images/donate.jpg","alipayText":"","button":"赞赏","title":"","wechat":"","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"./images/favicon.jpg","bookmark":"./images/favicon.jpg","appleTouch":"./images/apple-touch-icon.jpg","appleTouchMore":{"120x120":"./images/apple-touch-icon.jpg","180x180":"./images/apple-touch-icon.jpg"}},"github-buttons":{"buttons":[{"user":"Blankj","repo":"glory","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"sharing":{"qq":false,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":true,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","author":"Hardy","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"JS","language":"zh-hans","links":{"sidebar":{"Tom Hardy":""}},"gitbook":"3.2.3","description":"select * from learn"},"file":{"path":"sss.md","mtime":"2022-01-13T01:02:00.073Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-01-13T01:23:14.750Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
